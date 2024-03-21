@@ -51,5 +51,5 @@ console.log(sortWord);
 
 //Using an array of fruits with length 10 , insert 'Tomato' at the 5th index
 let fruits =["Mangos", "Pineapples","Oranges","watermelon","Banana","gripes","Apple","Quavas","Pawpaw"];
-fruits.splice(5,0, 'Tomato');
-console.log(fruits);
+let fruit = fruits.slice(0,4) + "Tomato" + fruits.slice(4);
+console.log({fruit});
